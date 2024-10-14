@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <title>ticket d'or</title>
+</head>
+<body style="background-color: crimson;"> 
+    
+    <!-- esta es la nav bar-->
+<nav class="navbar navbar-expand-lg bg-priimary">
+    <div class="container-fluid">
+      <h4>ticket d'or</h4>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acercaDelEvento.html">acerca del evento</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comprarEntreadas.html">tickets</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<center>
+    <div class="card" style="width: 18rem;">
+      <img src="river y boca.jpeg" class="card-img-top" alt="river">
+      <div class="card-body">
+        <h5 class="card-title">river vs boca</h5>
+        <p class="card-text">este sabado en el mas monumental</p>
+      </div>
+    </div>
+</center>
+<center>
+  <h3 style="color: black;">
+    COMPRAR TICKETS
+  </h3>
+</center>
+
+<div class="card-group" >
+  <div class="card">
+    <img src="plata.jpeg" class="card-img-top" alt="imagen de ticket plata">
+    <div class="card-body">
+      <h5 class="card-title">ticket de plata</h5>
+      <h5 class="card-title" style="color: black;">$40.000</h5>
+      <p class="card-text">asientos al fondo con vista muy mala
+      </p>
+      <button onclick="abrirnuevapagina()">comprar</button>
+        <script>
+          function abrirnuevapagina(){
+            window.open("file:///home/estudiante/Escritorio/bianchi/Acerca%20Del%20Evento.html/comprarEntreadas.html");
+          }
+        </script>
+    </div>
+  </div>
+  <div class="card">
+    <img src="or.jpeg" class="card-img-top" alt="ticket de oro">
+    <div class="card-body">
+      <h5 class="card-title">ticket de oro</h5>
+      <h5 class="card-title">$75.000</h5>
+      <p class="card-text">asientos comodos con vista intermedia
+      </p>
+      <button onclick="abrirnuevapagina()">comprar</button>
+        <script>
+          function abrirnuevapagina(){
+            window.open("file:///home/estudiante/Escritorio/bianchi/Acerca%20Del%20Evento.html/comprarEntreadas.html");
+          }
+        </script>
+    </div>
+  </div>
+  <div class="card">
+    <img src="diamante.jpeg" class="card-img-top" alt="ticket de diamante">
+    <div class="card-body">
+      <h5 class="card-title">ticket de diamante</h5>
+      <h5 class="card-title">$100.000</h5>
+      <p class="card-text">asientos mas cercano a los jugadores mas foto y entrevista
+        <button onclick="abrirnuevapagina()">comprar</button>
+        <script>
+          function abrirnuevapagina(){
+            window.open("file:///home/estudiante/Escritorio/bianchi/Acerca%20Del%20Evento.html/comprarEntreadas.html");
+          }
+        </script>
+  </div>
+</body>
+
+
+</html>
